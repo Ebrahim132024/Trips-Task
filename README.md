@@ -1,37 +1,43 @@
-# Flutter Web — Trip List (Pixel-Perfect to Figma)
+# 🌍 Flutter Web — Trip List (Pixel-Perfect to Figma)
 
 **A responsive Flutter Web screen that displays a list of trips — pixel-perfect to the provided Figma design.**  
-Built with scalable clean architecture (Data / Domain / Presentation). Riverpod + MVVM friendly. Includes instructions to run locally and deploy to Firebase Hosting.
+Built using clean architecture (Data / Domain / Presentation) and Riverpod + MVVM pattern.  
+Deployed live using Firebase Hosting.
+
+---
+
+## 🔗 Live Preview
+
+👉 **Live URL:** [https://trips-task-28e40.web.app/](https://trips-task-28e40.web.app/)
+
+Visit the link above to preview the hosted Flutter Web app.
 
 ---
 
 ## 🚀 Project Overview
 
-This project implements a single responsive Flutter web screen that matches the provided Figma design exactly (colors, fonts, spacing, assets). It follows a scalable clean architecture split into three layers:
+This project implements a responsive web screen that matches the Figma design exactly — including fonts, colors, spacing, and overall layout.  
+It follows scalable **clean architecture** principles and includes all three layers:
 
-- **Data** — local data source (`assets/trips_mock.json`), models, and repositories.
-- **Domain** — entities and use-cases (business rules).
-- **Presentation** — UI, view models (MVVM), and state management.
-
-State management is pluggable — Riverpod + MVVM is recommended (and implemented as an example). The repo uses an `app_exports.dart` barrel file to centralize common imports / theme / colors / utilities.
+- **Data** — Models, repositories, and local data source (using `trips_mock.json`).
+- **Domain** — Entities and use cases.
+- **Presentation** — UI, ViewModels, and Riverpod state management.
 
 ---
 
 ## ✅ Features
 
-- Pixel-perfect UI matching Figma (fonts, assets, colors).
-- Fully responsive for different screen sizes and resizes.
-- Clean architecture (Data / Domain / Presentation).
-- Local JSON data source (`trips_mock.json`) included as an asset.
-- Example MVVM + Riverpod integration (recommended).
-- Uses `app_exports.dart` to centralize exports.
-- Built for Flutter Web and deployed via Firebase Hosting.
+- 🎨 Pixel-perfect Figma implementation  
+- 🧱 Clean Architecture (Data / Domain / Presentation)  
+- 💾 Local JSON asset (`trips_mock.json`) as data source  
+- 🌗 Centralized imports via `app_exports.dart`  
+- 📱 Responsive layout for various screen sizes  
+- ⚡ Firebase Hosting Deployment  
+- 🧩 Supports Riverpod + MVVM + get_it DI pattern  
 
 ---
 
 ## 📦 Dependencies
-
-Add the following to `pubspec.yaml` under `dependencies:`:
 
 ```yaml
 dependencies:
