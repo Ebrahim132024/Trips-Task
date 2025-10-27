@@ -1,0 +1,5 @@
+package com.reckit.webtriplist
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()
